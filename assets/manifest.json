@@ -1,0 +1,918 @@
+{
+  "version": 1,
+  "font": "Silkscreen-Regular.ttf",
+  "sprites": {
+    "crystal": {
+      "size": [
+        16,
+        12
+      ],
+      "frames": [
+        "sprites/crystal_0.png"
+      ],
+      "fps": 1.0,
+      "walk": [
+        0
+      ]
+    },
+    "enemy": {
+      "size": [
+        32,
+        32
+      ],
+      "frames": [
+        "sprites/enemy_0.png",
+        "sprites/enemy_1.png",
+        "sprites/enemy_2.png",
+        "sprites/enemy_3.png",
+        "sprites/enemy_4.png"
+      ],
+      "fps": 8.0,
+      "walk": [
+        0,
+        1,
+        0,
+        2
+      ]
+    },
+    "enemy_goddess": {
+      "size": [
+        32,
+        32
+      ],
+      "frames": [
+        "sprites/enemy_goddess_0.png",
+        "sprites/enemy_goddess_1.png",
+        "sprites/enemy_goddess_2.png",
+        "sprites/enemy_goddess_3.png",
+        "sprites/enemy_goddess_4.png"
+      ],
+      "fps": 8.0,
+      "walk": [
+        0,
+        1,
+        0,
+        2
+      ]
+    },
+    "enemy_ninja": {
+      "size": [
+        32,
+        32
+      ],
+      "frames": [
+        "sprites/enemy_ninja_0.png",
+        "sprites/enemy_ninja_1.png",
+        "sprites/enemy_ninja_2.png",
+        "sprites/enemy_ninja_3.png",
+        "sprites/enemy_ninja_4.png"
+      ],
+      "fps": 8.0,
+      "walk": [
+        0,
+        1,
+        0,
+        2
+      ]
+    },
+    "enemy_samurai": {
+      "size": [
+        32,
+        32
+      ],
+      "frames": [
+        "sprites/enemy_samurai_0.png",
+        "sprites/enemy_samurai_1.png",
+        "sprites/enemy_samurai_2.png",
+        "sprites/enemy_samurai_3.png",
+        "sprites/enemy_samurai_4.png"
+      ],
+      "fps": 8.0,
+      "walk": [
+        0,
+        1,
+        0,
+        2
+      ]
+    },
+    "enemy_soldier": {
+      "size": [
+        32,
+        32
+      ],
+      "frames": [
+        "sprites/enemy_soldier_0.png",
+        "sprites/enemy_soldier_1.png",
+        "sprites/enemy_soldier_2.png",
+        "sprites/enemy_soldier_3.png",
+        "sprites/enemy_soldier_4.png"
+      ],
+      "fps": 8.0,
+      "walk": [
+        0,
+        1,
+        0,
+        2
+      ]
+    },
+    "fern": {
+      "size": [
+        16,
+        12
+      ],
+      "frames": [
+        "sprites/fern_0.png"
+      ],
+      "fps": 1.0,
+      "walk": [
+        0
+      ]
+    },
+    "glow": {
+      "size": [
+        128,
+        128
+      ],
+      "frames": [
+        "sprites/glow_0.png"
+      ],
+      "fps": 1.0,
+      "walk": [
+        0
+      ]
+    },
+    "goddess": {
+      "size": [
+        32,
+        48
+      ],
+      "frames": [
+        "sprites/goddess_0.png",
+        "sprites/goddess_1.png",
+        "sprites/goddess_2.png",
+        "sprites/goddess_3.png",
+        "sprites/goddess_4.png",
+        "sprites/goddess_5.png",
+        "sprites/goddess_6.png",
+        "sprites/goddess_7.png",
+        "sprites/goddess_8.png",
+        "sprites/goddess_9.png"
+      ],
+      "fps": 10.0,
+      "walk": [
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    "heart": {
+      "size": [
+        7,
+        6
+      ],
+      "frames": [
+        "sprites/heart_0.png"
+      ],
+      "fps": 1.0,
+      "walk": [
+        0
+      ]
+    },
+    "ninja": {
+      "size": [
+        32,
+        48
+      ],
+      "frames": [
+        "sprites/ninja_0.png",
+        "sprites/ninja_1.png",
+        "sprites/ninja_2.png",
+        "sprites/ninja_3.png",
+        "sprites/ninja_4.png",
+        "sprites/ninja_5.png",
+        "sprites/ninja_6.png",
+        "sprites/ninja_7.png",
+        "sprites/ninja_8.png",
+        "sprites/ninja_9.png"
+      ],
+      "fps": 10.0,
+      "walk": [
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    "player": {
+      "size": [
+        32,
+        48
+      ],
+      "frames": [
+        "sprites/player_0.png",
+        "sprites/player_1.png",
+        "sprites/player_2.png",
+        "sprites/player_3.png",
+        "sprites/player_4.png",
+        "sprites/player_5.png",
+        "sprites/player_6.png",
+        "sprites/player_7.png",
+        "sprites/player_8.png",
+        "sprites/player_9.png"
+      ],
+      "fps": 10.0,
+      "walk": [
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    "samurai": {
+      "size": [
+        32,
+        48
+      ],
+      "frames": [
+        "sprites/samurai_0.png",
+        "sprites/samurai_1.png",
+        "sprites/samurai_2.png",
+        "sprites/samurai_3.png",
+        "sprites/samurai_4.png",
+        "sprites/samurai_5.png",
+        "sprites/samurai_6.png",
+        "sprites/samurai_7.png",
+        "sprites/samurai_8.png",
+        "sprites/samurai_9.png"
+      ],
+      "fps": 10.0,
+      "walk": [
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    "soldier": {
+      "size": [
+        32,
+        48
+      ],
+      "frames": [
+        "sprites/soldier_0.png",
+        "sprites/soldier_1.png",
+        "sprites/soldier_2.png",
+        "sprites/soldier_3.png",
+        "sprites/soldier_4.png",
+        "sprites/soldier_5.png",
+        "sprites/soldier_6.png",
+        "sprites/soldier_7.png",
+        "sprites/soldier_8.png",
+        "sprites/soldier_9.png"
+      ],
+      "fps": 10.0,
+      "walk": [
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    "stalker": {
+      "size": [
+        32,
+        48
+      ],
+      "frames": [
+        "sprites/stalker_0.png",
+        "sprites/stalker_1.png",
+        "sprites/stalker_2.png",
+        "sprites/stalker_3.png",
+        "sprites/stalker_4.png",
+        "sprites/stalker_5.png",
+        "sprites/stalker_6.png",
+        "sprites/stalker_7.png",
+        "sprites/stalker_8.png",
+        "sprites/stalker_9.png"
+      ],
+      "fps": 10.0,
+      "walk": [
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    "tile_0": {
+      "size": [
+        32,
+        32
+      ],
+      "frames": [
+        "sprites/tile_0_0.png"
+      ],
+      "fps": 1.0,
+      "walk": [
+        0
+      ]
+    },
+    "tile_1": {
+      "size": [
+        32,
+        32
+      ],
+      "frames": [
+        "sprites/tile_1_0.png"
+      ],
+      "fps": 1.0,
+      "walk": [
+        0
+      ]
+    },
+    "tile_2": {
+      "size": [
+        32,
+        32
+      ],
+      "frames": [
+        "sprites/tile_2_0.png"
+      ],
+      "fps": 1.0,
+      "walk": [
+        0
+      ]
+    },
+    "tile_3": {
+      "size": [
+        32,
+        32
+      ],
+      "frames": [
+        "sprites/tile_3_0.png"
+      ],
+      "fps": 1.0,
+      "walk": [
+        0
+      ]
+    },
+    "tile_4": {
+      "size": [
+        32,
+        32
+      ],
+      "frames": [
+        "sprites/tile_4_0.png"
+      ],
+      "fps": 1.0,
+      "walk": [
+        0
+      ]
+    },
+    "tile_5": {
+      "size": [
+        32,
+        32
+      ],
+      "frames": [
+        "sprites/tile_5_0.png"
+      ],
+      "fps": 1.0,
+      "walk": [
+        0
+      ]
+    },
+    "tile_6": {
+      "size": [
+        32,
+        32
+      ],
+      "frames": [
+        "sprites/tile_6_0.png"
+      ],
+      "fps": 1.0,
+      "walk": [
+        0
+      ]
+    }
+  },
+  "rooms": [
+    {
+      "background": [
+        22,
+        34,
+        29
+      ],
+      "stone": [
+        45,
+        62,
+        47
+      ],
+      "accent": [
+        97,
+        226,
+        198
+      ]
+    },
+    {
+      "background": [
+        32,
+        28,
+        34
+      ],
+      "stone": [
+        64,
+        49,
+        58
+      ],
+      "accent": [
+        239,
+        110,
+        113
+      ]
+    },
+    {
+      "background": [
+        38,
+        27,
+        25
+      ],
+      "stone": [
+        78,
+        51,
+        42
+      ],
+      "accent": [
+        246,
+        193,
+        113
+      ]
+    },
+    {
+      "background": [
+        29,
+        35,
+        38
+      ],
+      "stone": [
+        55,
+        68,
+        71
+      ],
+      "accent": [
+        226,
+        233,
+        211
+      ]
+    },
+    {
+      "background": [
+        24,
+        33,
+        34
+      ],
+      "stone": [
+        47,
+        61,
+        57
+      ],
+      "accent": [
+        97,
+        226,
+        198
+      ]
+    },
+    {
+      "background": [
+        23,
+        39,
+        36
+      ],
+      "stone": [
+        62,
+        88,
+        69
+      ],
+      "accent": [
+        189,
+        218,
+        117
+      ]
+    },
+    {
+      "background": [
+        27,
+        35,
+        49
+      ],
+      "stone": [
+        66,
+        72,
+        97
+      ],
+      "accent": [
+        112,
+        205,
+        225
+      ]
+    }
+  ],
+  "music": "audio/music.wav",
+  "effects": {
+    "jump": "audio/jump.wav",
+    "double_jump": "audio/double_jump.wav",
+    "land": "audio/land.wav",
+    "attack": "audio/attack.wav",
+    "dash": "audio/dash.wav",
+    "hurt": "audio/hurt.wav",
+    "death": "audio/death.wav",
+    "hit": "audio/hit.wav",
+    "defeat": "audio/defeat.wav",
+    "pickup": "audio/pickup.wav",
+    "shrine": "audio/shrine.wav",
+    "portal": "audio/portal.wav",
+    "victory": "audio/victory.wav",
+    "menu": "audio/menu.wav"
+  },
+  "weapons": [
+    {
+      "name": "Epee",
+      "damage": 1,
+      "reach": 62.0,
+      "height": 52.0,
+      "duration": 0.18,
+      "cooldown": 0.32,
+      "color": [
+        239,
+        222,
+        160
+      ],
+      "automatic": false,
+      "laser": false,
+      "unlock_kills": 0
+    },
+    {
+      "name": "Dague",
+      "damage": 1,
+      "reach": 38.0,
+      "height": 34.0,
+      "duration": 0.1,
+      "cooldown": 0.18,
+      "color": [
+        120,
+        220,
+        210
+      ],
+      "automatic": false,
+      "laser": false,
+      "unlock_kills": 0
+    },
+    {
+      "name": "Lance",
+      "damage": 1,
+      "reach": 110.0,
+      "height": 24.0,
+      "duration": 0.16,
+      "cooldown": 0.42,
+      "color": [
+        155,
+        195,
+        245
+      ],
+      "automatic": false,
+      "laser": false,
+      "unlock_kills": 0
+    },
+    {
+      "name": "Marteau",
+      "damage": 3,
+      "reach": 50.0,
+      "height": 70.0,
+      "duration": 0.28,
+      "cooldown": 0.75,
+      "color": [
+        245,
+        140,
+        115
+      ],
+      "automatic": false,
+      "laser": false,
+      "unlock_kills": 0
+    },
+    {
+      "name": "Arc",
+      "damage": 1,
+      "reach": 32.0,
+      "height": 32.0,
+      "duration": 0.12,
+      "cooldown": 0.4,
+      "color": [
+        190,
+        225,
+        150
+      ],
+      "projectile": {
+        "speed": 520.0,
+        "range": 600.0,
+        "radius": 3.0
+      },
+      "automatic": false,
+      "laser": false,
+      "unlock_kills": 0
+    },
+    {
+      "name": "Arbalete",
+      "damage": 3,
+      "reach": 32.0,
+      "height": 32.0,
+      "duration": 0.12,
+      "cooldown": 0.85,
+      "color": [
+        235,
+        190,
+        110
+      ],
+      "projectile": {
+        "speed": 800.0,
+        "range": 850.0,
+        "radius": 3.0
+      },
+      "automatic": false,
+      "laser": false,
+      "unlock_kills": 0
+    },
+    {
+      "name": "Baton d'etincelles",
+      "damage": 2,
+      "reach": 32.0,
+      "height": 32.0,
+      "duration": 0.12,
+      "cooldown": 0.55,
+      "color": [
+        100,
+        205,
+        245
+      ],
+      "projectile": {
+        "speed": 360.0,
+        "range": 450.0,
+        "radius": 7.0
+      },
+      "automatic": false,
+      "laser": false,
+      "unlock_kills": 0
+    },
+    {
+      "name": "Pistolet leger",
+      "damage": 1,
+      "reach": 32.0,
+      "height": 32.0,
+      "duration": 0.06,
+      "cooldown": 0.25,
+      "color": [
+        235,
+        210,
+        150
+      ],
+      "projectile": {
+        "speed": 720.0,
+        "range": 650.0,
+        "radius": 3.0
+      },
+      "automatic": false,
+      "laser": false,
+      "unlock_kills": 2
+    },
+    {
+      "name": "Pistolet lourd",
+      "damage": 3,
+      "reach": 32.0,
+      "height": 32.0,
+      "duration": 0.06,
+      "cooldown": 0.6,
+      "color": [
+        240,
+        155,
+        110
+      ],
+      "projectile": {
+        "speed": 780.0,
+        "range": 700.0,
+        "radius": 3.0
+      },
+      "automatic": false,
+      "laser": false,
+      "unlock_kills": 5
+    },
+    {
+      "name": "Fusil de combat",
+      "damage": 2,
+      "reach": 32.0,
+      "height": 32.0,
+      "duration": 0.06,
+      "cooldown": 0.3,
+      "color": [
+        160,
+        220,
+        175
+      ],
+      "projectile": {
+        "speed": 1000.0,
+        "range": 1000.0,
+        "radius": 3.0
+      },
+      "automatic": false,
+      "laser": false,
+      "unlock_kills": 8
+    },
+    {
+      "name": "Fusil de precision",
+      "damage": 5,
+      "reach": 32.0,
+      "height": 32.0,
+      "duration": 0.06,
+      "cooldown": 1.0,
+      "color": [
+        155,
+        205,
+        245
+      ],
+      "projectile": {
+        "speed": 1200.0,
+        "range": 1200.0,
+        "radius": 3.0
+      },
+      "automatic": false,
+      "laser": false,
+      "unlock_kills": 12
+    },
+    {
+      "name": "Mitrailleuse legere",
+      "damage": 1,
+      "reach": 32.0,
+      "height": 32.0,
+      "duration": 0.06,
+      "cooldown": 0.1,
+      "color": [
+        245,
+        205,
+        100
+      ],
+      "projectile": {
+        "speed": 850.0,
+        "range": 750.0,
+        "radius": 3.0
+      },
+      "automatic": true,
+      "laser": false,
+      "unlock_kills": 16
+    },
+    {
+      "name": "Mitrailleuse lourde",
+      "damage": 2,
+      "reach": 32.0,
+      "height": 32.0,
+      "duration": 0.06,
+      "cooldown": 0.16,
+      "color": [
+        245,
+        135,
+        130
+      ],
+      "projectile": {
+        "speed": 900.0,
+        "range": 900.0,
+        "radius": 3.0
+      },
+      "automatic": true,
+      "laser": false,
+      "unlock_kills": 24
+    },
+    {
+      "name": "Pistolet laser",
+      "damage": 2,
+      "reach": 32.0,
+      "height": 32.0,
+      "duration": 0.06,
+      "cooldown": 0.22,
+      "color": [
+        80,
+        235,
+        245
+      ],
+      "projectile": {
+        "speed": 1200.0,
+        "range": 800.0,
+        "radius": 3.0
+      },
+      "automatic": false,
+      "laser": true,
+      "unlock_kills": 28
+    },
+    {
+      "name": "Pistolet laser lourd",
+      "damage": 4,
+      "reach": 32.0,
+      "height": 32.0,
+      "duration": 0.06,
+      "cooldown": 0.5,
+      "color": [
+        245,
+        100,
+        160
+      ],
+      "projectile": {
+        "speed": 1200.0,
+        "range": 900.0,
+        "radius": 3.0
+      },
+      "automatic": false,
+      "laser": true,
+      "unlock_kills": 32
+    },
+    {
+      "name": "Fusil laser",
+      "damage": 3,
+      "reach": 32.0,
+      "height": 32.0,
+      "duration": 0.06,
+      "cooldown": 0.28,
+      "color": [
+        120,
+        245,
+        145
+      ],
+      "projectile": {
+        "speed": 1200.0,
+        "range": 1100.0,
+        "radius": 3.0
+      },
+      "automatic": false,
+      "laser": true,
+      "unlock_kills": 38
+    },
+    {
+      "name": "Fusil laser de precision",
+      "damage": 7,
+      "reach": 32.0,
+      "height": 32.0,
+      "duration": 0.06,
+      "cooldown": 0.9,
+      "color": [
+        105,
+        185,
+        255
+      ],
+      "projectile": {
+        "speed": 1200.0,
+        "range": 1200.0,
+        "radius": 3.0
+      },
+      "automatic": false,
+      "laser": true,
+      "unlock_kills": 44
+    },
+    {
+      "name": "Mitrailleuse laser",
+      "damage": 2,
+      "reach": 32.0,
+      "height": 32.0,
+      "duration": 0.06,
+      "cooldown": 0.1,
+      "color": [
+        245,
+        220,
+        90
+      ],
+      "projectile": {
+        "speed": 1200.0,
+        "range": 900.0,
+        "radius": 3.0
+      },
+      "automatic": true,
+      "laser": true,
+      "unlock_kills": 52
+    },
+    {
+      "name": "Mitrailleuse laser lourde",
+      "damage": 3,
+      "reach": 32.0,
+      "height": 32.0,
+      "duration": 0.06,
+      "cooldown": 0.16,
+      "color": [
+        255,
+        100,
+        105
+      ],
+      "projectile": {
+        "speed": 1200.0,
+        "range": 1100.0,
+        "radius": 3.0
+      },
+      "automatic": true,
+      "laser": true,
+      "unlock_kills": 64
+    }
+  ]
+}

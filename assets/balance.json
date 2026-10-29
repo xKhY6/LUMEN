@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "player": {
+    "gravity": 1200.0,
+    "max_fall": 700.0,
+    "wall_slide_fall": 120.0,
+    "walk_speed": 235.0,
+    "acceleration": 1800.0,
+    "jump_speed": 510.0,
+    "wall_jump": [290.0, 470.0],
+    "wall_lock": 0.16,
+    "coyote": 0.1,
+    "jump_buffer": 0.12,
+    "dash_speed": 620.0,
+    "dash_time": 0.16,
+    "dash_cooldown": 0.45
+  },
+  "enemies": {
+    "speed_per_tier": 0.025,
+    "pace_per_tier": 0.02,
+    "enrage_threshold": 0.5,
+    "enrage_cooldown": 0.7,
+    "enrage_speed": 1.2
+  },
+  "difficulty": [
+    { "bonus_hearts": 2, "invincibility": 2.0, "attack_pace": 1.25 },
+    { "bonus_hearts": 0, "invincibility": 1.4, "attack_pace": 1.0 },
+    { "bonus_hearts": 0, "invincibility": 1.0, "attack_pace": 0.8 }
+  ]
+}
